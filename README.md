@@ -92,36 +92,46 @@ Before you begin, ensure you have the following installed:
 - **npm** or **yarn** package manager
 - **Git** for version control
 
+
 ### Installation
 
 #### 1. Clone the Repository
-```bash 
-git clone https://github.com/your-username/career-sync.git 
-cd career-sync 
+
+```bash
+git clone https://github.com/your-username/career-sync.git
+cd career-sync
+```
 
 #### 2. Install Dependencies
-```bash 
-npm install 
+
+```bash
+npm install
+```
 
 #### 3. Environment Configuration
+
 Create a `.env.local` file in the root directory and add the following:
-```env 
+
+```env
 # Database
-MONGO_DB_USERNAME=your_mongo_username 
-MONGO_DB_PASSWORD=your_mongo_password 
-MONGODB_URI=your_full_mongodb_connection_uri 
+MONGO_DB_USERNAME=your_mongo_username
+MONGO_DB_PASSWORD=your_mongo_password
+MONGODB_URI=your_full_mongodb_connection_uri
 
 # Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key 
-CLERK_SECRET_KEY=your_clerk_secret_key 
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
 
 # Azure Blob Storage
 AZURE_STORAGE_ACCOUNT_KEY=your_azure_storage_account_key
-AZURE_STORAGE_NAME=your_azure_storage_name 
+AZURE_STORAGE_NAME=your_azure_storage_name
+```
 
 #### 4. Run Development Server
-```bash 
-npm run dev 
+
+```bash
+npm run dev
+```
 
 Visit [http://localhost:3000](http://localhost:3000) to see the application running locally.
 
