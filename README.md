@@ -82,6 +82,33 @@ CareerSync is a modern, full-stack professional networking platform that enables
 4. Explore the responsive design across devices
 
 ---
+## 🖼️ Screenshots
+
+<h3 align="center">📸 Screenshots – Desktop & Mobile</h3>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/b78c6c1a-ab6b-4829-a922-e5049a6c9d17" alt="CareerSync Desktop Interface" width="400"/><br/>
+        <sub><em>🖥️ Desktop View</em></sub>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/8ea7442e-fcae-49f4-ad9e-52c355442406" alt="CareerSync Mobile Interface" width="200"/><br/>
+        <sub><em>📱 Mobile View</em></sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Key Features Demonstrated
+- ✅ **Post Creation**: Rich text editor with image upload capability
+- ✅ **User Profiles**: Complete profile sidebar with post/comment counts  
+- ✅ **Social Interactions**: Like, comment, repost, and send functionality
+- ✅ **Responsive Design**: Seamless experience across desktop and mobile
+- ✅ **Image Support**: Full image upload and display with Azure Blob Storage
+
+----
 
 ## 🚀 Getting Started
 
